@@ -1,0 +1,107 @@
+
+body {
+    background-color:white;
+    }
+
+.navbar{
+    background-color: #353A40;
+}    
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: center;
+}
+
+.tarjetas{
+    padding: 3%;
+    margin-top: 3%;
+    width: 50%;
+    height: 60%; 
+    margin: auto auto;
+}
+
+.card1{
+    padding: 2px;
+    font-size: large;
+    text-align: center;
+    line-height: 40px;
+    border-style: solid;
+    border-color: blue;
+}
+
+.card2{
+    padding: 2px;
+    font-size: large;
+    text-align: center;
+    line-height: 40px;
+    border-style: solid;
+    border-color: mediumaquamarine;
+}
+
+.card3 {
+    padding: 2px;
+    font-size: large;
+    text-align: center;
+    line-height: 40px;
+    border-style: solid;
+    border-color: yellow;
+}
+
+
+.descuentos{
+    font-size: smaller;
+}
+
+.venta{
+    color: black;
+    text-align: center;
+}
+
+.valor{
+    font-size: 55px;
+    color: black;
+    text-align: center;
+}
+ 
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.pagar{
+    background-color: #CBE5FE;
+    color: blue;
+}
+
+.pagar ::placeholder{
+    color: blue;
+} 
+
+.btn{
+    background-color: #96C93E;
+    color: white;
+}
+
+.footer{
+    background: rgb(24,58,98);
+    background: linear-gradient(90deg, rgba(24,58,98,1) 0%, rgba(8,33,96,1) 100%);
+}
+
+.footer a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.foot{
+    text-align: center;
+}
+
+.divv{
+    text-align: center;
+    align-items: center;
+    height: 80px;
+}
